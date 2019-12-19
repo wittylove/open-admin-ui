@@ -290,3 +290,33 @@
     }
   }
 </script>
+<style>
+  .scroll-body .ivu-tag-primary{
+    background: #6e7fff !important;
+  }
+  .scroll-body .ivu-tag-primary .ivu-tag-dot-inner,.ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened,.ivu-layout-sider,
+  .ivu-menu-dark,.ivu-menu-submenu-title{
+    background: #FFF !important;
+  }
+  .scroll-body .ivu-tag-primary span,.scroll-body .ivu-tag-primary .ivu-icon-ios-close,.main-layout-bread-crumb i,
+  .ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active,.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active>.ivu-icon,
+  .main-layout-left .main-layout-header,.ivu-icon-md-menu:before, .main-layout-left .main-layout-header a,
+  .main-layout-left .main-layout-header span{
+    color: #FFF !important;
+  }
+  /* 左侧样式 */
+  
+  .ivu-menu-submenu-title,.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item{
+    color: #000 !important;
+  }
+  .ivu-menu-dark.ivu-menu-vertical .ivu-menu-item{
+    font-family: '微软雅黑' !important;
+  }
+  .ivu-menu-submenu-title:hover {
+    background-color: #ddeeff !important;
+    /* color: #fff !important; */
+  }
+
+  .main-layout-left .main-layout-header{
+    background-image: linear-gradient(to left, #51A6FF , #7477FF);
+  }

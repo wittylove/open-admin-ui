@@ -95,7 +95,7 @@
                   :columns="columns2"
                   :data="selectMenus">
                   <template slot="operation" slot-scope="scope">
-                    <CheckboxGroup v-model="formItem.grantActions">
+                    <CheckboxGroup v-model="formItem.grantActions" @on-change="grantActionsChange">
                       <Checkbox v-for="item in scope.row.actionList" :label="item.authorityId">
                         <span :title="item.actionDesc">{{item.actionName}}</span>
                       </Checkbox>
@@ -276,6 +276,29 @@
       }
     },
     methods: {
+      grantActionsChange(e){
+        let that = this
+        const a = getAuthorityMenu()
+        Promise.all([a]).then(function (values) {
+          let res1 = values[0]
+          if (res1.code === 0 && res1.data) {
+            let opt = {
+              primaryKey: 'menuId',
+              parentKey: 'parentId',
+              startPid: '0'
+            }
+            res1.data.map(item => {
+             // 功能权限
+              item.actionList.map(action => {
+                if(e.includes(action.authorityId)){
+                  item._isChecked = true
+                }
+              })
+            })
+            that.selectMenus = listConvertTree(res1.data, opt)
+          }
+        })
+      },
       handleModal (data) {
         if (data) {
           this.formItem = Object.assign({}, this.formItem, data)
