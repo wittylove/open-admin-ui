@@ -103,7 +103,7 @@
   import {mapMutations, mapActions, mapGetters} from 'vuex'
   import {getNewTagList, getNextRoute, routeEqual} from '@/libs/util'
   import minLogo from '@/assets/images/logo-min.png'
-  import maxLogo from '@/assets/images/logo.png'
+  import maxLogo from '@/assets/images/logo3.png'
   import './main.less'
   import Layout from "../../../node_modules/iview/src/components/layout/layout";
   export default {
@@ -291,17 +291,21 @@
   }
 </script>
 <style>
+  .ivu-layout-sider-children{
+    border-right: 1px solid #ccc;
+  }
   .scroll-body .ivu-tag-primary{
     background: #6e7fff !important;
   }
   .scroll-body .ivu-tag-primary .ivu-tag-dot-inner,.ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened,.ivu-layout-sider,
-  .ivu-menu-dark,.ivu-menu-submenu-title{
+  .ivu-menu-dark,.ivu-menu-submenu-title,
+  .main-layout-logo{
     background: #FFF !important;
   }
   .scroll-body .ivu-tag-primary span,.scroll-body .ivu-tag-primary .ivu-icon-ios-close,.main-layout-bread-crumb i,
   .ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active,.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active>.ivu-icon,
   .main-layout-left .main-layout-header,.ivu-icon-md-menu:before, .main-layout-left .main-layout-header a,
-  .main-layout-left .main-layout-header span{
+  .main-layout-left .main-layout-header span,.main-layout-header-bar>li>.ivu-icon,.ivu-tooltip-rel>.ivu-icon,.ivu-dropdown-rel>.ivu-icon{
     color: #FFF !important;
   }
   /* 左侧样式 */
@@ -312,11 +316,15 @@
   .ivu-menu-dark.ivu-menu-vertical .ivu-menu-item{
     font-family: '微软雅黑' !important;
   }
-  .ivu-menu-submenu-title:hover {
-    background-color: #ddeeff !important;
+  .ivu-menu-submenu-title:hover,.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item:hover,.side-menu-wrapper .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item:hover{
+    background: #ddeeff !important;
     /* color: #fff !important; */
+  }
+  .ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu){
+    background: #2d8cf0 !important;
   }
 
   .main-layout-left .main-layout-header{
     background-image: linear-gradient(to left, #51A6FF , #7477FF);
   }
+</style>

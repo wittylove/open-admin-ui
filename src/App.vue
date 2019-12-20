@@ -62,7 +62,7 @@ html,body{
 .ivu-icon-ios-text,.ivu-icon-md-thermometer,.ivu-icon-ios-thumbs-up-outline,.ivu-icon-ios-time,.ivu-icon-md-timer,.ivu-icon-md-transgender,.ivu-icon-logo-skype,
 .ivu-icon-md-trending-down,.ivu-icon-md-trophy,.ivu-icon-ios-umbrella,.ivu-icon-md-undo,.ivu-icon-ios-videocam,.ivu-icon-md-volume-down,.ivu-icon-ios-more,
 .ivu-icon-ios-volume-up,.ivu-icon-ios-warning-outline,.ivu-icon-ios-water-outline,.ivu-icon-md-wifi,.ivu-icon-ios-woman,.ivu-icon-logo-yahoo{
-  color: #FFAE35;
+  color: #FFAE35 !important;
 }
 .ivu-icon-ios-add-circle,.ivu-icon-ios-alert,.ivu-icon-logo-angular,.ivu-icon-ios-apps,.ivu-icon-md-appstore,.ivu-icon-md-arrow-back,.ivu-icon-ios-bug-outline,
 .ivu-icon-ios-arrow-dropdown-circle,.ivu-icon-md-arrow-dropleft-circle,.ivu-icon-ios-arrow-dropup,.ivu-icon-md-american-football,.ivu-icon-ios-barcode-outline,
@@ -91,7 +91,7 @@ html,body{
 .ivu-icon-ios-trending-up,.ivu-icon-logo-tumblr,.ivu-icon-ios-umbrella-outline,.ivu-icon-ios-unlock,.ivu-icon-ios-videocam-outline,.ivu-icon-ios-volume-mute,
 .ivu-icon-md-volume-up,.ivu-icon-md-warning,.ivu-icon-md-water,.ivu-icon-logo-windows,.ivu-icon-ios-woman-outline,.ivu-icon-logo-snapchat,.ivu-icon-logo-yen,
 .ivu-icon-md-search,.ivu-icon-ios-settings-outline,.ivu-icon-ios-share-alt,.ivu-icon-md-shirt,.ivu-icon-md-skip-backward{
-  color: #FF6A6A;
+  color: #FF6A6A !important;
 }
 .ivu-icon-ios-add,.ivu-icon-md-alarm,.ivu-icon-ios-alert-outline,.ivu-icon-ios-analytics,.ivu-icon-ios-aperture,.ivu-icon-ios-expand,.ivu-icon-ios-easel,
 .ivu-icon-ios-archive,.ivu-icon-ios-arrow-down,.ivu-icon-md-arrow-dropdown-circle,.ivu-icon-ios-arrow-dropright,.ivu-icon-md-arrow-dropup,.ivu-icon-md-cube,
@@ -120,7 +120,7 @@ html,body{
 .ivu-icon-md-text,.ivu-icon-ios-thumbs-down-outline,.ivu-icon-ios-thunderstorm,.ivu-icon-md-time,.ivu-icon-ios-train-outline,.ivu-icon-ios-trash-outline,
 .ivu-icon-md-trending-up,.ivu-icon-logo-tux,.ivu-icon-md-umbrella,.ivu-icon-md-videocam,.ivu-icon-md-volume-mute,.ivu-icon-ios-glasses,.ivu-icon-ios-walk,
 .ivu-icon-ios-unlock-outline,.ivu-icon-md-musical-note,.ivu-icon-ios-watch,.ivu-icon-logo-whatsapp,.ivu-icon-ios-wine,.ivu-icon-md-woman,.ivu-icon-logo-youtube{
-  color: #51A6FF;
+  color: #51A6FF !important;
 }
 .ivu-icon-ios-add-circle-outline,.ivu-icon-ios-albums,.ivu-icon-md-alert,.ivu-icon-ios-analytics-outline,.ivu-icon-ios-aperture-outline,.ivu-icon-md-apps,
 .ivu-icon-ios-archive-outline,.ivu-icon-md-arrow-down,.ivu-icon-ios-arrow-dropleft,.ivu-icon-md-arrow-dropright,.ivu-icon-ios-build,.ivu-icon-md-bulb,
@@ -150,7 +150,7 @@ html,body{
 .ivu-icon-ios-thermometer,.ivu-icon-md-thumbs-down,.ivu-icon-ios-thunderstorm-outline,.ivu-icon-ios-timer,.ivu-icon-md-train,.ivu-icon-md-trash,
 .ivu-icon-ios-trophy,.ivu-icon-logo-twitch,.ivu-icon-ios-undo,.ivu-icon-md-unlock,.ivu-icon-logo-vimeo,.ivu-icon-ios-volume-off,.ivu-icon-ios-square,
 .ivu-icon-md-walk,.ivu-icon-md-watch,.ivu-icon-ios-wifi,.ivu-icon-ios-wine-outline,.ivu-icon-logo-wordpress,.ivu-icon-ios-loading{
-  color: #35B6AE;
+  color: #35B6AE !important;
 }
 .ivu-icon-md-add-circle,.ivu-icon-ios-albums-outline,.ivu-icon-ios-american-football,.ivu-icon-md-analytics,.ivu-icon-md-aperture,.ivu-icon-ios-appstore,
 .ivu-icon-md-archive,.ivu-icon-ios-arrow-dropdown,.ivu-icon-md-arrow-dropleft,.ivu-icon-ios-arrow-dropright-circle,.ivu-icon-logo-css3,.ivu-icon-md-cut,
@@ -180,6 +180,6 @@ html,body{
 .ivu-icon-ios-thermometer-outline,.ivu-icon-ios-thumbs-up,.ivu-icon-md-thunderstorm,.ivu-icon-ios-timer-outline,.ivu-icon-ios-transgender,.ivu-icon-md-sad,
 .ivu-icon-ios-trophy-outline,.ivu-icon-logo-twitter,.ivu-icon-ios-undo-outline,.ivu-icon-logo-usd,.ivu-icon-ios-volume-down,.ivu-icon-md-volume-off,
 .ivu-icon-ios-warning,.ivu-icon-ios-water,.ivu-icon-ios-wifi-outline,.ivu-icon-md-wine,.ivu-icon-logo-xbox,.ivu-icon-md-tennisball{
-  color: #CE7BF9;
+  color: #CE7BF9 !important;
 }
 </style>
